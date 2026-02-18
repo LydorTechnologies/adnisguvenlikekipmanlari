@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Phone, MessageCircle, MapPin, ArrowUpRight } from 'lucide-react';
-import logo from '../assets/logo.jpeg';
+import logo from '/assets/logo.jpeg';
 
 const Footer = () => {
   return (

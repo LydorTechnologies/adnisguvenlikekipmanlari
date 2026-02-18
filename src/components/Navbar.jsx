@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
-import logo from '../assets/logo.jpeg';
+import logo from '/assets/logo.jpeg';
 
 const navLinks = [
   { to: '/', label: 'Ana Sayfa' },
