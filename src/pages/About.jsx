@@ -46,8 +46,8 @@ const About = () => {
           </p>
           <p className="text-dark-400 mb-6 text-lg leading-relaxed">
             WENT, Yılmaz Ayakkabı ve daha birçok sektörün önde gelen markasının geniş ürün yelpazesini müşterilerimize
-            sunuyor, her ihtiyaca uygun iş güvenliği çözümleri üretiyoruz. İş ayakkabılarından botlara, comfort modellerden
-            hafif iş ayakkabılarına kadar geniş bir ürün gamına sahibiz.
+            sunuyor, her ihtiyaca uygun iş güvenliği çözümleri üretiyoruz. İş ayakkabılarından botlara ve iş güvenlik malzemelerine kadar
+            geniş bir ürün gamına sahibiz.
           </p>
           <p className="text-dark-400 text-lg leading-relaxed">
             Toplu siparişlerde özel fiyat avantajları sağlıyor, hızlı teslimat ile müşteri memnuniyetini ön planda tutuyoruz.
