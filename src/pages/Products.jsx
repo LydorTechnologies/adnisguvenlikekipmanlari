@@ -1,6 +1,8 @@
 import { useState, useMemo } from 'react';
+import { Link } from 'react-router-dom';
 import { MessageCircle, Search, Filter, X } from 'lucide-react';
 import { ayakkabilar } from '../data/mockData';
+import { kodToSlug } from './ProductDetail';
 
 const Products = () => {
   const [activeCategory, setActiveCategory] = useState('Tümü');
@@ -124,31 +126,41 @@ const Products = () => {
                         key={`${item.kod}-${i}`}
                         className="group bg-white rounded-2xl border border-dark-100 hover:border-gold/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-gold/5 transition-all duration-300 overflow-hidden"
                       >
-                        <div className="aspect-square overflow-hidden bg-dark-50 p-4 relative">
-                          <img
-                            src={item.link}
-                            alt={item.kod}
-                            className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
-                            loading="lazy"
-                          />
-                          <div className="absolute top-3 left-3">
-                            <span className="px-2.5 py-1 bg-dark-900/80 text-gold text-[10px] font-semibold rounded-md backdrop-blur-sm">
-                              {item.cate}
-                            </span>
+                        <Link to={`/urunler/${kodToSlug(item.kod)}`} className="block">
+                          <div className="aspect-square overflow-hidden bg-dark-50 p-4 relative">
+                            <img
+                              src={item.link}
+                              alt={item.kod}
+                              className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
+                              loading="lazy"
+                            />
+                            <div className="absolute top-3 left-3">
+                              <span className="px-2.5 py-1 bg-dark-900/80 text-gold text-[10px] font-semibold rounded-md backdrop-blur-sm">
+                                {item.cate}
+                              </span>
+                            </div>
                           </div>
-                        </div>
+                        </Link>
                         <div className="p-5">
                           <h3 className="font-bold text-dark-900 text-lg mb-2">{item.kod}</h3>
                           <p className="text-sm text-dark-400 leading-relaxed line-clamp-3 mb-4">{item.aciklama}</p>
-                          <a
-                            href={`https://wa.me/905356482213?text=Merhaba%2C%20${encodeURIComponent(item.kod)}%20hakkında%20bilgi%20almak%20istiyorum.`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center justify-center gap-2 w-full py-2.5 bg-dark-900 hover:bg-gold text-white hover:text-dark-900 rounded-lg text-sm font-semibold transition-all duration-200"
-                          >
-                            <MessageCircle size={14} />
-                            Bilgi Al
-                          </a>
+                          <div className="flex gap-2">
+                            <Link
+                              to={`/urunler/${kodToSlug(item.kod)}`}
+                              className="flex items-center justify-center flex-1 py-2.5 border border-dark-200 hover:border-gold/50 text-dark-600 hover:text-gold rounded-lg text-sm font-semibold transition-all duration-200"
+                            >
+                              Detaylar
+                            </Link>
+                            <a
+                              href={`https://wa.me/905356482213?text=Merhaba%2C%20${encodeURIComponent(item.kod)}%20hakkında%20bilgi%20almak%20istiyorum.`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center justify-center gap-2 flex-1 py-2.5 bg-dark-900 hover:bg-gold text-white hover:text-dark-900 rounded-lg text-sm font-semibold transition-all duration-200"
+                            >
+                              <MessageCircle size={14} />
+                              Bilgi Al
+                            </a>
+                          </div>
                         </div>
                       </div>
                     ))}

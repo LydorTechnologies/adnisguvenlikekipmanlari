@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, HardHat, ArrowRight, Phone, MessageCircle, CheckCircle, Truck, Award, Users, ChevronLeft, ChevronRight } from 'lucide-react';
 import { ayakkabilar } from '../data/mockData';
+import { kodToSlug } from './ProductDetail';
 
 const categories = [...new Set(ayakkabilar.map(a => a.cate))];
 
@@ -55,10 +56,10 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left - Text */}
             <div>
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gold/10 border border-gold/20 rounded-full text-xs font-semibold text-gold tracking-wider uppercase mb-6">
+              {/*<div className="inline-flex items-center gap-2 px-4 py-2 bg-gold/10 border border-gold/20 rounded-full text-xs font-semibold text-gold tracking-wider uppercase mb-6">
                 <span className="w-1.5 h-1.5 bg-gold rounded-full animate-pulse" />
                 İş Güvenliği Ekipmanları
-              </div>
+              </div>*/}
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-[1.1] tracking-tight mb-5">
                 Güvenliğiniz <br />
@@ -118,27 +119,35 @@ const Home = () => {
                   {/* Product Image */}
                   <div className="relative h-64 bg-gradient-to-b from-dark-700/50 to-dark-800/50 p-6 flex items-center justify-center">
                     {heroProducts.map((item, i) => (
-                      <img
+                      <Link
                         key={i}
-                        src={item.link}
-                        alt={item.kod}
-                        className={`absolute inset-6 w-auto h-auto max-w-[calc(100%-3rem)] max-h-[calc(100%-3rem)] object-contain m-auto transition-all duration-500 ${
+                        to={`/urunler/${kodToSlug(item.kod)}`}
+                        className={`absolute inset-6 flex items-center justify-center transition-all duration-500 ${
                           i === current
                             ? 'opacity-100 scale-100'
                             : 'opacity-0 scale-90 pointer-events-none'
                         }`}
-                      />
+                      >
+                        <img
+                          src={item.link}
+                          alt={item.kod}
+                          className="w-auto h-auto max-w-full max-h-full object-contain hover:scale-105 transition-transform duration-300"
+                        />
+                      </Link>
                     ))}
                   </div>
 
                   {/* Product Info */}
                   <div className="p-4 border-t border-white/5">
                     <div className="flex items-start justify-between gap-3">
-                      <div className="min-w-0">
+                      <Link
+                        to={`/urunler/${kodToSlug(heroProducts[current]?.kod || '')}`}
+                        className="min-w-0 flex-1 group/info"
+                      >
                         <span className="text-gold text-xs font-semibold">{heroProducts[current]?.cate}</span>
-                        <h3 className="text-white font-bold mt-0.5 truncate">{heroProducts[current]?.kod}</h3>
+                        <h3 className="text-white font-bold mt-0.5 truncate group-hover/info:text-gold transition-colors">{heroProducts[current]?.kod}</h3>
                         <p className="text-dark-300 text-xs mt-1 line-clamp-2 leading-relaxed">{heroProducts[current]?.aciklama}</p>
-                      </div>
+                      </Link>
                       <a
                         href={`https://wa.me/905356482213?text=Merhaba%2C%20${encodeURIComponent(heroProducts[current]?.kod || '')}%20hakkında%20bilgi%20almak%20istiyorum.`}
                         target="_blank"
@@ -274,22 +283,34 @@ const Home = () => {
                 key={i}
                 className="group bg-white rounded-2xl border border-dark-100 hover:border-gold/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-gold/5 transition-all duration-300 overflow-hidden"
               >
-                <div className="aspect-square overflow-hidden bg-dark-50 p-4">
-                  <img src={item.link} alt={item.kod} className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500" loading="lazy" />
-                </div>
+                <Link to={`/urunler/${kodToSlug(item.kod)}`} className="block">
+                  <div className="aspect-square overflow-hidden bg-dark-50 p-4">
+                    <img src={item.link} alt={item.kod} className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+                  </div>
+                </Link>
                 <div className="p-5">
                   <div className="text-xs text-gold font-semibold mb-1">{item.cate}</div>
-                  <h3 className="font-bold text-dark-900 mb-2">{item.kod}</h3>
+                  <Link to={`/urunler/${kodToSlug(item.kod)}`}>
+                    <h3 className="font-bold text-dark-900 mb-2 hover:text-gold transition-colors">{item.kod}</h3>
+                  </Link>
                   <p className="text-sm text-dark-400 leading-relaxed line-clamp-2">{item.aciklama}</p>
-                  <a
-                    href={`https://wa.me/905356482213?text=Merhaba%2C%20${encodeURIComponent(item.kod)}%20hakkında%20bilgi%20almak%20istiyorum.`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-4 flex items-center justify-center gap-2 w-full py-2.5 bg-dark-900 hover:bg-gold text-white hover:text-dark-900 rounded-lg text-sm font-semibold transition-all duration-200"
-                  >
-                    <MessageCircle size={14} />
-                    Bilgi Al
-                  </a>
+                  <div className="mt-4 flex gap-2">
+                    <Link
+                      to={`/urunler/${kodToSlug(item.kod)}`}
+                      className="flex items-center justify-center flex-1 py-2.5 border border-dark-200 hover:border-gold/50 text-dark-600 hover:text-gold rounded-lg text-sm font-semibold transition-all duration-200"
+                    >
+                      Detaylar
+                    </Link>
+                    <a
+                      href={`https://wa.me/905356482213?text=Merhaba%2C%20${encodeURIComponent(item.kod)}%20hakkında%20bilgi%20almak%20istiyorum.`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center gap-2 flex-1 py-2.5 bg-dark-900 hover:bg-gold text-white hover:text-dark-900 rounded-lg text-sm font-semibold transition-all duration-200"
+                    >
+                      <MessageCircle size={14} />
+                      Bilgi Al
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}

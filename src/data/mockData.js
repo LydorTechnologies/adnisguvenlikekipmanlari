@@ -4,177 +4,446 @@ export const ayakkabilar = [
         'kod': "WENT 705-17",
         'cate': "WENT İş Ayakkabıları",
         'link': "https://www.went.com.tr/wp-content/uploads/2021/04/WENT-710-17-S2-S3-1.jpg",
-        'aciklama': "Su itici özellikli S2/S3 standartlarında, zorlu çalışma koşullarına dayanıklı, üstün koruma sağlayan iş ayakkabısı."
+        'aciklama': "Su itici özellikli S2/S3 standartlarında, zorlu çalışma koşullarına dayanıklı, üstün koruma sağlayan iş ayakkabısı.",
+        'resimler': [],
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Microfiber Süet deri",
+            'Astar': "3D hava geçirgen file",
+            'Mostra': "Memory foam",
+            'Burun Koruma': "Kompozit Burun",
+            'Ara Taban': "Delinmeye karşı tekstil ara taban (sadece S1P modellerde isteğe bağlı üretilir)"
+        }
     },
     {
         'kod': "WENT 716-07",
         'cate': "WENT İş Ayakkabıları",
         'link': "https://www.went.com.tr/wp-content/uploads/2021/04/WENT-716-07-S1S1P-1.jpg",
-        'aciklama': "Modern tasarımı ve S1P koruma özellikleriyle hem şık hem de güvenli bir çalışma deneyimi sunar."
+        'aciklama': "Modern tasarımı ve S1P koruma özellikleriyle hem şık hem de güvenli bir çalışma deneyimi sunar.",
+        'resimler': [],
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Microfiber Süet deri",
+            'Astar': "3D hava geçirgen file",
+            'Mostra': "Memory foam",
+            'Burun Koruma': "Kompozit Burun",
+            'Ara Taban': "Delinmeye karşı tekstil ara taban (sadece S1P modellerde isteğe bağlı üretilir)"
+        }
     },
     {
         'kod': "WENT 736",
         'cate': "WENT İş Ayakkabıları",
         'link': "https://www.went.com.tr/wp-content/uploads/2021/04/WENT-736-S2S3-2.jpg",
-        'aciklama': "S2 S3 standartlarında, yüksek bilek korumalı, zorlu arazi ve şantiye koşulları için ideal iş botu."
+        'aciklama': "S2 S3 standartlarında, yüksek bilek korumalı, zorlu arazi ve şantiye koşulları için ideal iş botu.",
+        'resimler': [],
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Microfiber Süet deri",
+            'Astar': "3D hava geçirgen file",
+            'Mostra': "Memory foam",
+            'Burun Koruma': "Kompozit Burun",
+            'Ara Taban': "Delinmeye karşı tekstil ara taban (sadece S1P modellerde isteğe bağlı üretilir)"
+        }
+    },
+    {
+        'kod': "705-17 S1 S1P ESD",
+        'cate': "WENT İş Ayakkabıları",
+        'link': "/assets/ayakkabilar/705-17 S1 S1P ESD.jpeg",
+        'aciklama': "S2 S3 standartlarında, yüksek bilek korumalı, zorlu arazi ve şantiye koşulları için ideal iş botu.",
+        'resimler': [],
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Microfiber Süet deri",
+            'Astar': "3D hava geçirgen file",
+            'Mostra': "Memory foam",
+            'Burun Koruma': "Kompozit Burun",
+            'Ara Taban': "Delinmeye karşı tekstil ara taban (sadece S1P modellerde isteğe bağlı üretilir)"
+        }
+    },
+    {
+        'kod': "710-17 S1 S1P",
+        'cate': "WENT İş Ayakkabıları",
+        'link': "/assets/ayakkabilar/710-17 S1 S1P.jpeg",
+        'aciklama': "S2 S3 standartlarında, yüksek bilek korumalı, zorlu arazi ve şantiye koşulları için ideal iş botu.",
+        'resimler': [],
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Microfiber Süet deri",
+            'Astar': "3D hava geçirgen file",
+            'Mostra': "Memory foam",
+            'Burun Koruma': "Kompozit Burun",
+            'Ara Taban': "Delinmeye karşı tekstil ara taban (sadece S1P modellerde isteğe bağlı üretilir)"
+        }
+    },
+    {
+        'kod': "710-17 S2 S3",
+        'cate': "WENT İş Ayakkabıları",
+        'link': "/assets/ayakkabilar/710-17 S2 S3.jpeg",
+        'aciklama': "S2 S3 standartlarında, yüksek bilek korumalı, zorlu arazi ve şantiye koşulları için ideal iş botu.",
+        'resimler': [],
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Microfiber Süet deri",
+            'Astar': "3D hava geçirgen file",
+            'Mostra': "Memory foam",
+            'Burun Koruma': "Kompozit Burun",
+            'Ara Taban': "Delinmeye karşı tekstil ara taban (sadece S1P modellerde isteğe bağlı üretilir)"
+        }
+    },
+    {
+        'kod': "712 S1 S1P",
+        'cate': "WENT İş Ayakkabıları",
+        'link': "/assets/ayakkabilar/712 S1 S1P.jpeg",
+        'aciklama': "S2 S3 standartlarında, yüksek bilek korumalı, zorlu arazi ve şantiye koşulları için ideal iş botu.",
+        'resimler': [],
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Microfiber Süet deri",
+            'Astar': "3D hava geçirgen file",
+            'Mostra': "Memory foam",
+            'Burun Koruma': "Kompozit Burun",
+            'Ara Taban': "Delinmeye karşı tekstil ara taban (sadece S1P modellerde isteğe bağlı üretilir)"
+        }
+    },
+    {
+        'kod': "719-17 S1 S1P",
+        'cate': "WENT İş Ayakkabıları",
+        'link': "/assets/ayakkabilar/719-17 S1 S1P.jpeg",
+        'aciklama': "S2 S3 standartlarında, yüksek bilek korumalı, zorlu arazi ve şantiye koşulları için ideal iş botu.",
+        'resimler': [],
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Microfiber Süet deri",
+            'Astar': "3D hava geçirgen file",
+            'Mostra': "Memory foam",
+            'Burun Koruma': "Kompozit Burun",
+            'Ara Taban': "Delinmeye karşı tekstil ara taban (sadece S1P modellerde isteğe bağlı üretilir)"
+        }
+    },
+    {
+        'kod': "802-01 S2 S3",
+        'cate': "WENT İş Ayakkabıları",
+        'link': "/assets/ayakkabilar/802-01 S2 S3.jpeg",
+        'aciklama': "S2 S3 standartlarında, yüksek bilek korumalı, zorlu arazi ve şantiye koşulları için ideal iş botu.",
+        'resimler': [],
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Microfiber Süet deri",
+            'Astar': "3D hava geçirgen file",
+            'Mostra': "Memory foam",
+            'Burun Koruma': "Kompozit Burun",
+            'Ara Taban': "Delinmeye karşı tekstil ara taban (sadece S1P modellerde isteğe bağlı üretilir)"
+        }
+    },
+    {
+        'kod': "802 S2 S3",
+        'cate': "WENT İş Ayakkabıları",
+        'link': "/assets/ayakkabilar/802 S2 S3.jpeg",
+        'aciklama': "S2 S3 standartlarında, yüksek bilek korumalı, zorlu arazi ve şantiye koşulları için ideal iş botu.",
+        'resimler': [],
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Microfiber Süet deri",
+            'Astar': "3D hava geçirgen file",
+            'Mostra': "Memory foam",
+            'Burun Koruma': "Kompozit Burun",
+            'Ara Taban': "Delinmeye karşı tekstil ara taban (sadece S1P modellerde isteğe bağlı üretilir)"
+        }
     },
 
-    // --- Yılmaz İş Ayakkabıları ---
+    // --- Yılmaz Ayakkabıları ---
     {
         'kod': "YL 702-01",
-        'cate': "Yılmaz İş Ayakkabıları",
-        'link': "/assets/ayakkabilarYL702-01.jpg",
-        'aciklama': "Standart iş güvenliği gereksinimlerini karşılayan, dayanıklı deri saya ve kaymaz taban özellikli iş ayakkabısı."
+        'cate': "Yılmaz Ayakkabıları",
+        'link': "/assets/ayakkabilar/YL702-01.jpg",
+        'aciklama': "Standart iş güvenliği gereksinimlerini karşılayan, dayanıklı deri saya ve kaymaz taban özellikli iş ayakkabısı.",
+        'resimler': ["/assets/yeni-5li.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "S1 S1P S2 S3",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Videla Deri",
+            'Astar': "Antibakteriyel ter emici",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 702-02",
-        'cate': "Yılmaz İş Ayakkabıları",
+        'cate': "Yılmaz Ayakkabıları",
         'link': "/assets/ayakkabilar/YL702-02.jpg",
-        'aciklama': "Ergonomik tasarımı ve nefes alabilir iç yapısıyla uzun süreli çalışmalarda konfor sağlayan iş ayakkabısı."
+        'aciklama': "Ergonomik tasarımı ve nefes alabilir iç yapısıyla uzun süreli çalışmalarda konfor sağlayan iş ayakkabısı.",
+        'resimler': ["/assets/yeni-5li.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "S1 S1P S2 S3",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Videla Deri",
+            'Astar': "3D Hava geçiren file",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 703",
-        'cate': "Yılmaz İş Ayakkabıları",
+        'cate': "Yılmaz Ayakkabıları",
         'link': "/assets/ayakkabilar/YL703.jpg",
-        'aciklama': "Güçlendirilmiş burun koruması ve antistatik taban özelliği ile güvenli bir çalışma ortamı sunar."
+        'aciklama': "Güçlendirilmiş burun koruması ve antistatik taban özelliği ile güvenli bir çalışma ortamı sunar.",
+        'resimler': ["/assets/yeni-5li.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "S2 S3",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Videla Deri",
+            'Astar': "Antibakteriyel ter emici",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 719-02",
-        'cate': "Yılmaz İş Ayakkabıları",
+        'cate': "Yılmaz Ayakkabıları",
         'link': "/assets/ayakkabilar/YL719-02.jpg",
-        'aciklama': "Sportif görünümü ve hafif yapısıyla hem konfor hem de güvenlik arayanlar için ideal bir seçenek."
+        'aciklama': "Sportif görünümü ve hafif yapısıyla hem konfor hem de güvenlik arayanlar için ideal bir seçenek.",
+        'resimler': ["/assets/yeni-5li.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Y.Videla Deri",
+            'Astar': "3D Hava geçiren file",
+            'Mostra': "Nefes alabilen iç taban",
+        },
+    },
+    {
+        'kod': "YL 719-04",
+        'cate': "Yılmaz Ayakkabıları",
+        'link': "/assets/ayakkabilar/YL719-04.jpg",
+        'aciklama': "Sportif ve şık tasarımıyla güvenliği birleştiren süet deri iş ayakkabısı.",
+        'resimler': ["/assets/yeni-5li.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Süet Deri",
+            'Astar': "Antibakteriyel ter emici",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 730-01",
-        'cate': "Yılmaz İş Ayakkabıları",
+        'cate': "Yılmaz Ayakkabıları",
         'link': "/assets/ayakkabilar/YL730-01.jpg",
-        'aciklama': "Klasik iş ayakkabısı tasarımına sahip, dayanıklı ve uzun ömürlü kullanım sunan model."
+        'aciklama': "Klasik iş ayakkabısı tasarımına sahip, dayanıklı ve uzun ömürlü kullanım sunan model.",
+        'resimler': ["yeni-4lu-civi.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Y.Videla Deri",
+            'Astar': "Antibakteriyel ter emici",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 731-01",
-        'cate': "Yılmaz İş Ayakkabıları",
+        'cate': "Yılmaz Ayakkabıları",
         'link': "/assets/ayakkabilar/YL731-01.jpg",
-        'aciklama': "Yüksek kaliteli malzemelerden üretilmiş, kaymaz taban ve burun korumalı güvenli iş ayakkabısı."
+        'aciklama': "Yüksek kaliteli malzemelerden üretilmiş, kaymaz taban ve burun korumalı güvenli iş ayakkabısı.",
+        'resimler': ["/assets/yeni-5li.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "S2 S3",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Videla Deri",
+            'Astar': "Antibakteriyel ter emici",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 734-01",
-        'cate': "Yılmaz İş Ayakkabıları",
+        'cate': "Yılmaz Ayakkabıları",
         'link': "/assets/ayakkabilar/YL734-01.jpg",
-        'aciklama': "Zorlu çalışma koşullarına uygun, ekstra dayanıklılık sağlayan dikişli yapısı ve koruyucu özellikleriyle öne çıkar."
+        'aciklama': "Zorlu çalışma koşullarına uygun, ekstra dayanıklılık sağlayan dikişli yapısı ve koruyucu özellikleriyle öne çıkar.",
+        'resimler': ["yeni-4lu-civi.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Süet Deri",
+            'Astar': "Antibakteriyel ter emici",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 734-02",
-        'cate': "Yılmaz İş Ayakkabıları",
+        'cate': "Yılmaz Ayakkabıları",
         'link': "/assets/ayakkabilar/YL734-02.jpg",
-        'aciklama': "Konforlu iç taban ve nefes alabilir saya tasarımıyla yorgunluğu azaltan iş ayakkabısı."
+        'aciklama': "Konforlu iç taban ve nefes alabilir saya tasarımıyla yorgunluğu azaltan iş ayakkabısı.",
+        'resimler': ["yeni-4lu-civi.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Y.Videla Deri",
+            'Astar': "Antibakteriyel ter emici",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 734-06",
-        'cate': "Yılmaz İş Ayakkabıları",
+        'cate': "Yılmaz Ayakkabıları",
         'link': "/assets/ayakkabilar/YL734-06.jpg",
-        'aciklama': "Özel taban deseni sayesinde üstün zemin tutuşu sağlayan, güvenli ve rahat iş ayakkabısı."
+        'aciklama': "Özel taban deseni sayesinde üstün zemin tutuşu sağlayan, güvenli ve rahat iş ayakkabısı.",
+        'resimler': ["yeni-4lu-civi.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "S1 S1P",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Süet Deri",
+            'Astar': "3D Hava geçiren file",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 902-01",
-        'cate': "Yılmaz İş Ayakkabıları",
+        'cate': "Yılmaz Ayakkabıları",
         'link': "/assets/ayakkabilar/YL902-01.jpg",
-        'aciklama': "Hijyen gerektiren ortamlar için uygun, kolay temizlenebilir ve dayanıklı beyaz iş ayakkabısı."
+        'aciklama': "Hijyen gerektiren ortamlar için uygun, kolay temizlenebilir ve dayanıklı beyaz iş ayakkabısı.",
+        'resimler': ["/assets/yeni-5li.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "S1 S1P S2 S3",
+        'Numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Videla Deri",
+            'Astar': "Antibakteriyel ter emici",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 904-01",
-        'cate': "Yılmaz İş Ayakkabıları",
+        'cate': "Yılmaz Ayakkabıları",
         'link': "/assets/ayakkabilar/YL904-01.jpg",
-        'aciklama': "Bağcıksız pratik kullanım sunan, kaymaz tabanlı ve koruyucu özellikli iş ayakkabısı."
+        'aciklama': "Bağcıksız pratik kullanım sunan, kaymaz tabanlı ve koruyucu özellikli iş ayakkabısı.",
+        'resimler': ["yeni-4lu-civi.jpg"],
+        'serisi': "Ayakkabı Serisi",
+        'enIso': "SB SBP",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Videla Deri",
+            'Astar': "Vinylex",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 808-02",
         'cate': "Bot Serisi",
         'link': "/assets/ayakkabilar/YL808-02.jpg",
-        'aciklama': "Bilek destekli yapısı ve soğuk hava koşullarına dayanıklı malzemesiyle kış ayları için ideal iş botu."
+        'aciklama': "Bilek destekli yapısı ve soğuk hava koşullarına dayanıklı malzemesiyle kış ayları için ideal iş botu.",
+        'resimler': ["/assets/yeni-5li.jpg"],
+        'serisi': "Bot Serisi",
+        'enIso': "S2 S3",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Videla Deri",
+            'Astar': "3D Hava geçiren file",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 809-02",
         'cate': "Bot Serisi",
         'link': "/assets/ayakkabilar/YL809-02.jpg",
-        'aciklama': "Zorlu şantiye ortamlarında maksimum koruma sağlayan, su itici özellikli ve çelik burunlu iş botu."
+        'aciklama': "Zorlu şantiye ortamlarında maksimum koruma sağlayan, su itici özellikli ve çelik burunlu iş botu.",
+        'resimler': ["/assets/yeni-5li.jpg"],
+        'serisi': "Bot Serisi",
+        'enIso': "S2 S3",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Süet Deri",
+            'Astar': "3D Hava geçiren file",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
-    /* --- Bot Serisi ---
-    {
-        'kod': "YL 837-02",
-        'cate': "Bot Serisi",
-        'link': "/assets/ayakkabilar/YL2.jpg",
-        'aciklama': "Yüksek güvenlik standartlarına sahip, kaymaz ve delinmeye dirençli tabanıyla tam koruma sunan bot."
-    },
-    {
-        'kod': "YL 837-01",
-        'cate': "Bot Serisi",
-        'link': "/assets/ayakkabilar/YL1.jpg",
-        'aciklama': "Ergonomik iç yapısı ve dayanıklı dış yüzeyi ile uzun süreli kullanımlarda konfor ve güvenlik sağlar."
-    },*/
 
     // --- Beyaz Serisi ---
     {
         'kod': "YL 902-02",
         'cate': "Beyaz Serisi",
         'link': "/assets/ayakkabilar/YL902-02.jpg",
-        'aciklama': "Gıda, sağlık ve hijyen sektörleri için özel olarak tasarlanmış, leke tutmayan beyaz iş ayakkabısı."
+        'aciklama': "Gıda, sağlık ve hijyen sektörleri için özel olarak tasarlanmış, leke tutmayan beyaz iş ayakkabısı.",
+        'resimler': ["/assets/yeni-5li.jpg"],
+        'serisi': "Beyaz Serisi",
+        'enIso': "S1 S1P S2 S3",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Mikrofiber",
+            'Astar': "Antibakteriyel ter emici",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 904-02",
         'cate': "Beyaz Serisi",
         'link': "/assets/ayakkabilar/YL904-02.jpg",
-        'aciklama': "Kaymaz taban teknolojisi ve kolay giyilebilir yapısıyla laboratuvar ve mutfak çalışanları için ideal."
+        'aciklama': "Kaymaz taban teknolojisi ve kolay giyilebilir yapısıyla laboratuvar ve mutfak çalışanları için ideal.",
+        'resimler': ["/assets/yeni-4lu-civi.jpg"],
+        'serisi': "Beyaz Serisi",
+        'enIso': "SB SBP",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Mikrofiber",
+            'Astar': "Vinylex",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
     {
         'kod': "YL 730-06",
         'cate': "Beyaz Serisi",
         'link': "/assets/ayakkabilar/YL730-06.jpg",
-        'aciklama': "Nefes alabilir yapısı ve antibakteriyel iç astarı ile gün boyu hijyen ve konfor sağlayan model."
+        'aciklama': "Nefes alabilir yapısı ve antibakteriyel iç astarı ile gün boyu hijyen ve konfor sağlayan model.",
+        'resimler': ["/assets/yeni-4lu-civi.jpg"],
+        'serisi': "Beyaz Serisi",
+        'enIso': "SB SBP",
+        'numaralar': "36 - 48",
+        'ozellikler': {
+            'Taban': "Çift Dansite PU/PU",
+            'Saya': "Mikrofiber",
+            'Astar': "Antibakteriyel ter emici",
+            'Mostra': "Nefes alabilen iç taban",
+        },
     },
-
-    /* --- Comfort Ayakkabılar ---
-    {
-        'kod': "YL 404",
-        'cate': "Comfort Ayakkabılar",
-        'link': "/assets/ayakkabilar/893692278.jpg",
-        'aciklama': "Günlük kullanımda maksimum rahatlık sunan, yumuşak tabanlı ve ergonomik tasarımlı comfort ayakkabı."
-    },
-    {
-        'kod': "YL 403",
-        'cate': "Comfort Ayakkabılar",
-        'link': "/assets/ayakkabilar/691385351.jpg",
-        'aciklama': "Hafif yapısı ve esnek tabanı sayesinde ayak yorgunluğunu minimize eden konfor odaklı model."
-    },
-    {
-        'kod': "YL 402",
-        'cate': "Comfort Ayakkabılar",
-        'link': "/assets/ayakkabilar/812175377.jpg",
-        'aciklama': "Şık tasarımı ve ortopedik destekli iç yapısıyla hem iş hem de günlük kullanım için uygundur."
-    },
-    {
-        'kod': "YL 401",
-        'cate': "Comfort Ayakkabılar",
-        'link': "/assets/ayakkabilar/815478445.jpg",
-        'aciklama': "Nefes alabilir saya ve darbe emici taban özellikleri ile gün boyu süren konfor sağlar."
-    },*/
-
-    /* --- Hafif İş Ayakkabıları ---
-    {
-        'kod': "YL 503",
-        'cate': "Hafif İş Ayakkabıları",
-        'link': "/assets/ayakkabilar/64505238.jpg",
-        'aciklama': "Hafif iş koşulları için tasarlanmış, esnek ve rahat yapısıyla hareket özgürlüğü sunan ayakkabı."
-    },
-    {
-        'kod': "YL 502",
-        'cate': "Hafif İş Ayakkabıları",
-        'link': "/assets/ayakkabilar/181131843.jpg",
-        'aciklama': "Modern ve hafif tasarımıyla depo ve lojistik gibi alanlarda çalışanlar için ideal bir tercih."
-    },
-    {
-        'kod': "YL 501",
-        'cate': "Hafif İş Ayakkabıları",
-        'link': "/assets/ayakkabilar/655079163.jpg",
-        'aciklama': "Ekstra hafif malzemelerden üretilmiş, uzun süreli ayakta duranlar için konforlu iş ayakkabısı."
-    }*/
 ];

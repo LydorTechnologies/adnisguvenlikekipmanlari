@@ -32,12 +32,19 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
-            {/*<img src={logo} alt="ADN İş Güvenlik" className="h-12 w-12 rounded-lg object-cover ring-2 ring-gold/30 group-hover:ring-gold transition-all" />*/}
-            <div className="hidden sm:block">
-              <span className="text-gold font-bold text-lg leading-tight block">ADN</span>
-              <span className="text-dark-200 text-xs leading-tight block">İş Güvenlik Ekipmanları</span>
-            </div>
+          <Link to="/" className="flex items-center group">
+            <span
+              className="font-black text-4xl tracking-[0.15em] leading-none select-none"
+              style={{
+                background: 'linear-gradient(135deg, #b8922a 0%, #f0d060 35%, #ffe98a 50%, #d4a82a 70%, #8a6010 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text',
+                filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.5))',
+              }}
+            >
+              ADN
+            </span>
           </Link>
 
           {/* Desktop Nav */}
