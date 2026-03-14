@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
-import logo from '/assets/logo.jpeg';
+import logo from '/assets/adnlogobeyaz.png';
 
 const navLinks = [
   { to: '/', label: 'Ana Sayfa' },
@@ -33,18 +33,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center group">
-            <span
-              className="font-black text-4xl tracking-[0.15em] leading-none select-none"
-              style={{
-                background: 'linear-gradient(135deg, #b8922a 0%, #f0d060 35%, #ffe98a 50%, #d4a82a 70%, #8a6010 100%)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                backgroundClip: 'text',
-                filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.5))',
-              }}
-            >
-              ADN
-            </span>
+            <img
+              src={logo}
+              alt="ADN Logo"
+              className="h-12 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Nav */}
